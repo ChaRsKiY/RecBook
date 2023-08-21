@@ -1,0 +1,349 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/charskiy/Projects/app/app/obj/Debug/net7.0/scopedcss/projectbundle/app.bundle.scp.css",
+      "PackagePath": "staticwebassets/app.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/040549d2-d94e-4008-a5e9-f33d2376e603.JPG",
+      "PackagePath": "staticwebassets/movies/040549d2-d94e-4008-a5e9-f33d2376e603.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/0470f83c-bf16-4202-8d24-402952c251fe.JPG",
+      "PackagePath": "staticwebassets/movies/0470f83c-bf16-4202-8d24-402952c251fe.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/1643bc19-7ad1-45cc-b856-499c2fc5cf0c.JPG",
+      "PackagePath": "staticwebassets/movies/1643bc19-7ad1-45cc-b856-499c2fc5cf0c.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/1d11dd23-cfbd-4c12-92e9-03e98d9adc4c.JPG",
+      "PackagePath": "staticwebassets/movies/1d11dd23-cfbd-4c12-92e9-03e98d9adc4c.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/34d8d527-11b4-4f73-951b-1f636980a8d8.JPG",
+      "PackagePath": "staticwebassets/movies/34d8d527-11b4-4f73-951b-1f636980a8d8.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/43c25092-2045-4808-8494-7518abb4d324.JPG",
+      "PackagePath": "staticwebassets/movies/43c25092-2045-4808-8494-7518abb4d324.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/4a841654-e6d6-4716-956b-b7ace40fa66e.JPG",
+      "PackagePath": "staticwebassets/movies/4a841654-e6d6-4716-956b-b7ace40fa66e.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/4e88affb-d4a3-4a58-b9fb-9c1529b1c79d.jpg",
+      "PackagePath": "staticwebassets/movies/4e88affb-d4a3-4a58-b9fb-9c1529b1c79d.jpg"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/5dd0d06e-923d-4f57-bbff-58bbb9d9bf41.jpg",
+      "PackagePath": "staticwebassets/movies/5dd0d06e-923d-4f57-bbff-58bbb9d9bf41.jpg"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/62d149b6-f1db-4591-92ed-4ddd74435ce3.JPG",
+      "PackagePath": "staticwebassets/movies/62d149b6-f1db-4591-92ed-4ddd74435ce3.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/6f36cd97-8c74-4009-8fa2-8ddbe358c713.JPG",
+      "PackagePath": "staticwebassets/movies/6f36cd97-8c74-4009-8fa2-8ddbe358c713.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/8440640c-7159-4e93-a241-9c870bb78e10.JPG",
+      "PackagePath": "staticwebassets/movies/8440640c-7159-4e93-a241-9c870bb78e10.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/852e7cf8-e0f9-4a0a-838c-d46361984146.JPG",
+      "PackagePath": "staticwebassets/movies/852e7cf8-e0f9-4a0a-838c-d46361984146.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/953fc01d-a62d-4fb4-ba93-be8fc147f21f.webp",
+      "PackagePath": "staticwebassets/movies/953fc01d-a62d-4fb4-ba93-be8fc147f21f.webp"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/a297187f-e9da-456b-a4fe-0df843c822ac.JPG",
+      "PackagePath": "staticwebassets/movies/a297187f-e9da-456b-a4fe-0df843c822ac.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/b2839b55-6ce4-4187-b3c2-0fb992b23900.JPG",
+      "PackagePath": "staticwebassets/movies/b2839b55-6ce4-4187-b3c2-0fb992b23900.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/c73d6ac8-5ec1-48cc-a546-34b20fd594e7.jpg",
+      "PackagePath": "staticwebassets/movies/c73d6ac8-5ec1-48cc-a546-34b20fd594e7.jpg"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/c8532f1d-a044-42d2-b739-1c7cf41ef4ae.webp",
+      "PackagePath": "staticwebassets/movies/c8532f1d-a044-42d2-b739-1c7cf41ef4ae.webp"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/cb2e8b44-0a7f-48f3-8e32-bfe8395a4752.JPG",
+      "PackagePath": "staticwebassets/movies/cb2e8b44-0a7f-48f3-8e32-bfe8395a4752.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/e6cdd50c-9815-4e09-983d-806f532164e6.JPG",
+      "PackagePath": "staticwebassets/movies/e6cdd50c-9815-4e09-983d-806f532164e6.JPG"
+    },
+    {
+      "Id": "/Users/charskiy/Projects/app/app/wwwroot/movies/e8d05317-8826-4349-810f-f606ab03cd4b.jpg",
+      "PackagePath": "staticwebassets/movies/e8d05317-8826-4349-810f-f606ab03cd4b.jpg"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.app.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.app.props",
+      "PackagePath": "build\\app.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.app.props",
+      "PackagePath": "buildMultiTargeting\\app.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.app.props",
+      "PackagePath": "buildTransitive\\app.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

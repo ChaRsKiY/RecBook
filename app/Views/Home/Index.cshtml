@@ -1,0 +1,23 @@
+﻿@model List<Movie>
+
+<h2>Movies</h2>
+<div class="moviecontainer">
+    @foreach (var movie in Model)
+    {
+        <div class="movieitem" data-id="@movie.Id">
+            <img src="~/movies/@movie.ImageName" alt="@movie.Title" />
+            <div class="title">@movie.Title</div>
+            <div class="year-pr"><div>@movie.Genre</div><div>@movie.Year</div></div>
+        </div>
+    }
+</div>
+
+<script>
+    var movieItems = document.querySelectorAll('.movieitem');
+    movieItems.forEach(function (item) {
+        item.addEventListener('click', function () {
+            var movieId = item.getAttribute('data-id');
+            window.location.href = '/Details/Details/' + movieId; 
+        });
+ });
+</script>
