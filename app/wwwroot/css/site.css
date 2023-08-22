@@ -23,34 +23,53 @@ body {
   margin-bottom: 60px;
 }
 
-.moviecontainer {
+.messagescontainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 
-.movieitem {
+.message {
+    padding: 15px;
+    border-radius: 20px;
+    font-family: 'Chivo', sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 15px;
-    margin: 18px;
-    border-radius: 20px;
-    box-shadow: 0px 10px 20px #c9c9c7;
-    width: 30%;
-    transition: 0.25s;
-    cursor:pointer;
+    box-shadow: 0px 10px 20px #cfcfcf;
+    min-width: 140px;
+    margin: 20px;
 }
 
-.movieitem img {
-    align-self: center;
-    width: 100%;
-    border-radius: 20px;
+.messageusername {
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
-    .movieitem:hover {
-        transform: scale(1.025);
-        box-shadow: 0px 10px 20px #d4d4d4;
-    }
+.messagebody {
+    padding: 5px;
+    font-size: 0.95rem;
+}
+
+.messagetime {
+    color: #8e9299;
+    font-size: 0.8rem;
+    justify-self: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .title {
     font-family: 'Chivo', sans-serif;
@@ -222,3 +241,71 @@ body {
         background-color: #73d160;
         color: white;
     }
+
+
+.Btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: rgb(255, 65, 65);
+}
+
+/* plus sign */
+.sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .sign svg {
+        width: 14px;
+    }
+
+        .sign svg path {
+            fill: white;
+        }
+/* text */
+.text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: white;
+    font-size: 1em;
+    font-weight: 600;
+    transition-duration: .3s;
+}
+/* hover effect on button width */
+.Btn:hover {
+    width: 95px;
+    border-radius: 40px;
+    transition-duration: .3s;
+}
+
+    .Btn:hover .sign {
+        width: 30%;
+        transition-duration: .3s;
+        padding-left: 20px;
+    }
+    /* hover effect button's text */
+    .Btn:hover .text {
+        opacity: 1;
+        width: 70%;
+        transition-duration: .3s;
+        padding-right: 10px;
+    }
+/* button click effect*/
+.Btn:active {
+    transform: translate(2px,2px);
+}

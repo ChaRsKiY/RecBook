@@ -1,41 +1,55 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using app.Models;
 using MongoDB.Driver;
-
-namespace app.Controllers;
 
 public class CreateController : Controller
 {
-    private IMongoCollection<Movie> _movieCollection;
+    private readonly IMongoCollection<Message> _messageCollection;
 
     public CreateController(IMongoClient mongoClient)
     {
-        var database = mongoClient.GetDatabase("MovieDatabase");
-        _movieCollection = database.GetCollection<Movie>("Movies");
+        var database = mongoClient.GetDatabase("DataBook");
+        _messageCollection = database.GetCollection<Message>("Messages");
     }
 
     [HttpGet]
-    public ActionResult Create()
+    public IActionResult Create()
     {
         return View();
     }
 
     [HttpPost]
-    public IActionResult Create(Movie movie, IFormFile imageFile)
+    public async Task<ActionResult> Create(Message message)
     {
-        if (imageFile != null)
+        if (message.Text.Trim().Length < 5)
         {
-            string fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
-            string filePath = Path.Combine("wwwroot/movies", fileName);
-            using (var fileStream = new FileStream(filePath, FileMode.Create))
-            {
-                imageFile.CopyTo(fileStream);
-            }
-            movie.ImageName = fileName;
+            ModelState.AddModelError("", "Messsage length must be minimum 5 symbols.");
+            return View(message);
         }
 
-        _movieCollection.InsertOne(movie);
-        return RedirectToAction("Index", "Home");
+        string username = HttpContext.Session.GetString("UserName");
+
+        if (username != null)
+        {
+            var newMessage = new Message
+            {
+                UserName = username,
+                Text = message.Text,
+                Time = DateTime.Now
+            };
+
+            await _messageCollection.InsertOneAsync(newMessage);
+
+            return RedirectToAction("Index", "Home");
+        }
+        else
+        {
+            return RedirectToAction("Index", "Home");
+        }
     }
 }
+
+

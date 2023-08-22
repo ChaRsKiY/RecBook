@@ -1,23 +1,20 @@
-﻿@model List<Movie>
+﻿@model List<Message>
 
-<h2>Movies</h2>
-<div class="moviecontainer">
-    @foreach (var movie in Model)
+@if (ViewBag.User != null)
+{
+    <div style="margin-bottom: 25px">
+        Welcome back, @ViewBag.User!
+    </div>
+}
+
+<h2>Messages</h2>
+<div class="messagescontainer">
+    @foreach (var message in Model)
     {
-        <div class="movieitem" data-id="@movie.Id">
-            <img src="~/movies/@movie.ImageName" alt="@movie.Title" />
-            <div class="title">@movie.Title</div>
-            <div class="year-pr"><div>@movie.Genre</div><div>@movie.Year</div></div>
+        <div class="message">
+            <div class="messageusername">@message.UserName</div>
+            <div class="messagebody">@message.Text</div>
+            <div class="messagetime">@message.Time.ToLocalTime()</div>
         </div>
     }
 </div>
-
-<script>
-    var movieItems = document.querySelectorAll('.movieitem');
-    movieItems.forEach(function (item) {
-        item.addEventListener('click', function () {
-            var movieId = item.getAttribute('data-id');
-            window.location.href = '/Details/Details/' + movieId; 
-        });
- });
-</script>

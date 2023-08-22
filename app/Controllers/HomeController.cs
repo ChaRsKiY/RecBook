@@ -7,17 +7,18 @@ namespace app.Controllers;
 
 public class HomeController : Controller
 {
-    private IMongoCollection<Movie> _movieCollection;
+    private IMongoCollection<Message> _messageCollection;
 
     public HomeController(IMongoClient mongoClient)
     {
-        var database = mongoClient.GetDatabase("MovieDatabase");
-        _movieCollection = database.GetCollection<Movie>("Movies");
+        var database = mongoClient.GetDatabase("DataBook");
+        _messageCollection = database.GetCollection<Message>("Messages");
     }
 
     public ActionResult Index()
     {
-        var movies = _movieCollection.Find(Builders<Movie>.Filter.Empty).ToList();
-        return View(movies);
+        ViewBag.User = HttpContext.Session?.GetString("UserName");
+        var messages = _messageCollection.Find(Builders<Message>.Filter.Empty).ToList();
+        return View(messages);
     }
 }

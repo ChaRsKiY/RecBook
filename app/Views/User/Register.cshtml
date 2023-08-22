@@ -1,0 +1,21 @@
+﻿@model User
+
+<h2>Registration</h2>
+
+<form method="post" action="Register" enctype="multipart/form-data">
+
+    <div class="coolinput">
+        <label for="Username" class="text">Usename</label>
+        <input placeholder="Enter your username..." type="text" name="Username" required class="input" />
+    </div>
+    <div class="coolinput">
+        <label for="Password" class="text">Password</label>
+        <input placeholder="Enter your password..." type="password" name="Password" required class="input" />
+    </div>
+
+    <div style="color: red; list-style: none; padding: 10px 0px 7px 0px;">@Html.ValidationSummary(true)</div>
+
+    <div>
+        <input class="createbutton" type="submit" value="Register" />
+    </div>
+</form>
